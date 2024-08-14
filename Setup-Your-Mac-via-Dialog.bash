@@ -10,7 +10,8 @@
 #
 # HISTORY
 #
-#   Version 1.15.0, 11-Jun-2024
+#   Version 1.15.1, 14-Aug-2024
+#   - Customized for TD SYNNEX usage
 #   - Added logging functions
 #   - Modified Microsoft Teams Message `activitySubtitle`
 #   - Activated main "Setup Your Mac" dialog with each `listitem`
