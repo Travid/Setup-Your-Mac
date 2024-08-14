@@ -41,7 +41,7 @@
 
 scriptVersion="1.15.0"
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin
-scriptLog="${4:-"/var/log/org.churchofjesuschrist.log"}"                        # Parameter 4: Script Log Location [ /var/log/org.churchofjesuschrist.log ] (i.e., Your organization's default location for client-side logs)
+scriptLog="${4:-"/var/log/org.tdsynnex.log"}"                        # Parameter 4: Script Log Location [ /var/log/org.churchofjesuschrist.log ] (i.e., Your organization's default location for client-side logs)
 debugMode="${5:-"verbose"}"                                                     # Parameter 5: Debug Mode [ verbose (default) | true | false ]
 welcomeDialog="${6:-"userInput"}"                                               # Parameter 6: Welcome dialog [ userInput (default) | video | messageOnly | false ]
 completionActionOption="${7:-"Restart Attended"}"                               # Parameter 7: Completion Action [ wait | sleep (with seconds) | Shut Down | Shut Down Attended | Shut Down Confirm | Restart | Restart Attended (default) | Restart Confirm | Log Out | Log Out Attended | Log Out Confirm ]
@@ -118,16 +118,16 @@ brandingIconLight="https://cdn-icons-png.flaticon.com/512/979/979585.png"
 brandingIconDark="https://cdn-icons-png.flaticon.com/512/740/740878.png"
 
 # [SYM-Helper] IT Support Variables - Use these if the default text is fine but you want your org's info inserted instead
-supportTeamName="Support Team Name"
+supportTeamName="Service Desk"
 supportTeamPhone="+1 (801) 555-1212"
-supportTeamEmail="support@domain.com"
-supportTeamChat="chat.support.domain.com"
-supportTeamChatHyperlink="[${supportTeamChat}](https://${supportTeamChat})"
+supportTeamEmail="help@tdsynnex.com"
+#supportTeamChat="chat.support.domain.com"
+#supportTeamChatHyperlink="[${supportTeamChat}](https://${supportTeamChat})"
 supportTeamWebsite="support.domain.com"
 supportTeamHyperlink="[${supportTeamWebsite}](https://${supportTeamWebsite})"
-supportKB="KB8675309"
-supportTeamErrorKB="[${supportKB}](https://servicenow.company.com/support?id=kb_article_view&sysparm_article=${supportKB}#Failures)"
-supportTeamHours="Monday through Friday, 8 a.m. to 5 p.m."
+#supportKB="KB8675309"
+#supportTeamErrorKB="[${supportKB}](https://servicenow.company.com/support?id=kb_article_view&sysparm_article=${supportKB}#Failures)"
+supportTeamHours="Monday through Friday, 8 a.m. to 5 p.m. EST and UTC"
 
 # Disable the "Continue" button in the User Input "Welcome" dialog until Dynamic Download Estimates have complete [ true | false ] (thanks, @Eltord!)
 lockContinueBeforeEstimations="false"
